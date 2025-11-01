@@ -4438,6 +4438,7 @@ CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
 CMDs[#CMDs + 1] = {NAME = 'sigmaspy / sspy', DESC = 'Opens Sigma Spy'}
+CMDs[#CMDs + 1] = {NAME = 'scriptdump / dump', DESC = 'Dumps all server scripts'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
@@ -10479,6 +10480,13 @@ addcmd('sigmaspy',{'sspy'},function(args, speaker)
 	-- Full credit to exx, creator of SimpleSpy
 	-- also thanks to Amity for fixing
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main/Main.lua"))()
+end)
+
+addcmd('scriptdump',{'dump'},function(args, speaker)
+	notify("Loading",'Hold on a sec')
+	-- Full credit to exx, creator of SimpleSpy
+	-- also thanks to Amity for fixing
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/yafyz/558ff37ffe48ff2ca30fdaac0605bd31/raw/9ffce00588fffea97fc3830b59156b90872dc8d5/better_script_dump.lua"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
