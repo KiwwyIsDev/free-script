@@ -4438,7 +4438,7 @@ CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
 CMDs[#CMDs + 1] = {NAME = 'sigmaspy / sspy', DESC = 'Opens Sigma Spy'}
-CMDs[#CMDs + 1] = {NAME = 'scriptdump / dump', DESC = 'Dumps all server scripts'}
+CMDs[#CMDs + 1] = {NAME = 'scriptdump / dump', DESC = 'Dumps all client scripts'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
